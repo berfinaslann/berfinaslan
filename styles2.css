@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    line-height: 100px;
+    padding-top: 500px;
+    padding-bottom: 100px;
+    color: rgb(0, 0, 0);
+}
+.back{
+    position: absolute;
+    z-index: -99;
+}
+.bb{
+    display: flex;
+    overflow: hidden;
+}
+.bb img{
+    width: 100vw;
+    height: 100vh;
+}
+.mesaj{
+    justify-content: center;
+    padding: 300px;
+    font-size: medium;
+    line-height: 60px;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute; bottom: -10px; top: -70px;
+}
+.başlık{
+    justify-content: center;
+    padding: 300px;
+    font-size: 50px;
+    line-height: 0px;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute; bottom: 10px; top: -150px;
+}
+
